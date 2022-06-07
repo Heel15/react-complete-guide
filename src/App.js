@@ -37,15 +37,7 @@ const App = () => {
     });
   };
 
-  const getSelectedYear = (selectedYear) => {
-    setExpenses((prevState) => {
-      const filteredExpense = prevState.filter((expense) => {
-        console.log(expense);
-        // return expense.date.getFullYear() === selectedYear;
-      });
-      return filteredExpense;
-    });
-  };
+  const getSelectedYear = (selectedYear) => {};
 
   return (
     <div>
